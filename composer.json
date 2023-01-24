@@ -20,6 +20,9 @@
         "hyperf/contract": "~3.0.0",
         "psr/event-dispatcher": "^1.0"
     },
+    "provide": {
+        "psr/event-dispatcher-implementation": "1.0"
+    },
     "suggest": {
         "hyperf/di": "Required to use annotatioins."
     },
